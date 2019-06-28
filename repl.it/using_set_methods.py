@@ -1,0 +1,9 @@
+a={'10','20','30','40'}
+b={'30','60'}
+print(a.union(b))
+i=a.intersection(b)
+print(i)
+d=a.difference(b)
+print(d)
+sd=a.symmetric_difference(b)
+print(sd)
